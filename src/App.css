@@ -86,7 +86,7 @@ body {
   padding-right: 1rem;
 }
 .main {
-  min-height: calc(100vh - 14rem);
+  min-height: calc(100vh - 10rem);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -94,7 +94,7 @@ body {
 }
 .chats {
   overflow: hidden;
-  overflow-y: scroll;
+  overflow-y: visible;
   scroll-behavior: smooth;
   width: 100%;
   max-width: 70rem;
@@ -145,28 +145,22 @@ body {
   background-color: rgb(83, 88, 150), 1;
   width: fit-content;
   border-radius: 0.5rem;
-  border: 2px solid red;
 }
-/* Örnek CSS Stilleri */
 
-/* Mesajlar */
 .chat {
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
 }
 
-/* Kullanıcı Mesajları */
 .chat.right {
   justify-content: flex-end;
 }
 
-/* Bot Mesajları */
 .chat.left {
   justify-content: flex-start;
 }
 
-/* Mesaj metni */
 .text {
   max-width: 70%;
   background-color: #f0f0f0;
@@ -174,14 +168,27 @@ body {
   border-radius: 10px;
 }
 
-/* Kullanıcı metni */
 .chat.right .text {
   background-color: #007bff;
   color: white;
 }
 
-/* Bot metni */
 .chat.left .text {
   background-color: #f0f0f0;
   color: black;
+}
+@media screen and (max-width: 768px) {
+  .sideBar {
+    display: none;
+  }
+  .main {
+    flex: 4;
+  }
+  .chats {
+    width: 100%;
+  }
+
+  .inp {
+    width: 40rem;
+  }
 }

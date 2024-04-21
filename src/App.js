@@ -17,14 +17,16 @@ function App() {
   ]);
   const [message, setMessage] = useState("");
 
-  const handleMessageSubmit = () => {
-    const newMessage = { text: message, sender: "user" };
-    const botResponse = {
-      text: "Merhaba, nasıl yardımcı olabilirim?",
-      sender: "bot",
-    };
-    setMessages([...messages, newMessage, botResponse]);
-    setMessage("");
+  const handleMessageSubmit = (e) => {
+    if (e.key === "Enter") {
+      const newMessage = { text: message, sender: "user" };
+      const botResponse = {
+        text: "Merhaba, nasıl yardımcı olabilirim?",
+        sender: "bot",
+      };
+      setMessages([...messages, newMessage, botResponse]);
+      setMessage("");
+    }
   };
 
   return (
@@ -89,6 +91,7 @@ function App() {
               placeholder="Send a message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              onKeyDown={handleMessageSubmit}
             />
             <button className="send" onClick={handleMessageSubmit}>
               <img src={sendBtn} alt="" />

@@ -18,14 +18,17 @@ function App() {
   const [message, setMessage] = useState("");
 
   const handleMessageSubmit = (e) => {
-    if (e.key === "Enter") {
-      const newMessage = { text: message, sender: "user" };
-      const botResponse = {
-        text: "Merhaba, nasıl yardımcı olabilirim?",
-        sender: "bot",
-      };
-      setMessages([...messages, newMessage, botResponse]);
-      setMessage("");
+    if ((e.key === "Enter" && !e.shiftKey) || e.type === "click") {
+      e.preventDefault(); // Formun submit olmasını engelle
+      if (message.trim() !== "") {
+        const newMessage = { text: message, sender: "user" };
+        const botResponse = {
+          text: "Merhaba, nasıl yardımcı olabilirim?",
+          sender: "bot",
+        };
+        setMessages([...messages, newMessage, botResponse]);
+        setMessage("");
+      }
     }
   };
 

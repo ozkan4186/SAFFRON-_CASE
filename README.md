@@ -1,70 +1,97 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+●	SAFFRON Case Study
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Project Skeleton ](#project-skeleton)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Installation](#Installation)  
+  - [Author](#author)
 
-### `npm start`
+## The challenge
+Hello, This is a chat project prepared with React. 
+It is a project prepared by using custom CSS and providing a constant response.
+As a result, by adding an API connection to the project, the ability to get the answers we want to the questions we want can be improved.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Skeleton
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+●	Rick and Morty Case Study
+|
+     
+SOLUTION
+├── public
+│     └── index.html
+├─
+├── src
+│   
+     └── assets
+│    ├── App.css
+│    ├── App.js
+│    ├── index.tsx
+│    └── index.js
+├── package.json
+└── yarn.lock
+|----readme.md  
+```
+## Screenshot
+<p align="left">
 
-### `npm test`
+![Animation3](https://github.com/ozkan4186/SAFFRON-_CASE/assets/109352349/f8843f51-f258-46fa-ab40-6fed1a92092a)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Links
+<hr>
+<b>Check The Live Website ➡️</b> <a href="https://main--helpful-praline-7fcea2.netlify.app/"> Live Website </a> 
+<hr>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built with
 
-### `npm run eject`
+- `@ReactJs`
+- `@JavaScript`
+- `@Custom Css`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone this project:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+     Clone the project: https://github.com/ozkan4186/TechAdmire_Case
+   ```
+2. Install the necessary dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm install / yarn
+   ```
+## Usage
 
-### Code Splitting
+1. Start the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm run start / yarn start
+   ```
+2. Open your web browser and go to [http://localhost:3000/](http://localhost:3000)
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Author - Özkan Demir
 
-### Making a Progressive Web App
+<center> &#8987; Happy Coding  &#9997; </center>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+

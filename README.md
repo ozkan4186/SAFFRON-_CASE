@@ -65,7 +65,7 @@ SOLUTION
 1. Clone this project:
 
    ```bash
-     Clone the project: https://github.com/ozkan4186/TechAdmire_Case
+     Clone the project: https://github.com/ozkan4186/SAFFRON-_CASE.git
    ```
 2. Install the necessary dependencies:
 
